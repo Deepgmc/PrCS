@@ -1,0 +1,16 @@
+hr {
+  border:1px solid darkgrey;
+}
+
+.form-control {
+    display: inline-block;
+    width: auto;
+}
+
+.login-input {
+  width:50% !important;
+}
+.hrd_error{
+   color:red;
+   display:none;
+}

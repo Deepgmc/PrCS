@@ -1,0 +1,11 @@
+.comp_line-tr:hover{
+  cursor:pointer;
+  background:#E6E6E6;
+}
+.comp_line-phone{
+  width:10%;
+}
+.comp_line-name {
+   font-weight: bold;
+   font-size:18px;
+}
