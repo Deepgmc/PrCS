@@ -35,8 +35,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						Такого пользователя не существует
 					</div>
 				</form>
-			<?php } ?>
-			<button class="btn btn-outline-primary btn-sm" onclick="document.location = '/'">Вернуться к списку компаний</button>
+			<?php
+			}
+			if ($_SERVER["REQUEST_URI"] !== '/'){
+				?><button class="btn btn-outline-primary btn-sm" onclick="document.location = '/'">Вернуться к списку компаний</button><?php
+			} ?>
 			</div>
 			<div class="col-sm-4"></div>
 			<div class="col-sm-3">
@@ -45,9 +48,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						if($this->session->userdata('isLogined')){
 					?>
 							Вы вошли как<br />
-							<b>
-								<?=$this->session->userdata('userName')?>
-							</b>
+							<b><?=$this->session->userdata('userName')?></b>
 							<button type="button" id="logoutBtn" class="btn btn-outline-secondary btn-sm">Выйти</button>
 					<?php } ?>
 				</p>

@@ -7,14 +7,17 @@
 .com_info-line_sm {
    font-size:16px;
 }
+
 .com_info-redactBtn {
    display:none;
    cursor:pointer;
    margin:0 0 0 10px;
 }
+
 .show_redact{
    display:inline-block;
 }
+
 .info_paragraph{
    text-indent: 20px;
 }
@@ -67,6 +70,7 @@
    border-bottom:1px dotted lightgrey;
    width:98%;
 }
+
 .comments_tarea {
    resize:none;
    width:100%;

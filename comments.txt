@@ -1,9 +1,16 @@
 - из репозитория выкачивать только ветку final_version
 
 - для серверной части я использовал фреймворк Codeigniter (т.к. с ним я уже был более-менее знаком).
-Файлы проекта находятся в application/controllers, application/models, application/views
+Файлы проекта (в основном) находятся в
+   application/controllers,
+   application/models,
+   application/views,
+   js,
+   css
 
 - создание необходимых mysql таблиц в файле createTables.sql (сгенерировано через PMA)
+
+- сессии храню в базе, на случай проблем с правами файлов
 
 - весь js в корне сайта в папке js. Без использования mvc-фреймворков, только js+jquery
 
