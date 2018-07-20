@@ -64,7 +64,8 @@
 }
 
 .comm_line {
-   border-bottom:1px dotted grey;
+   border-bottom:1px dotted lightgrey;
+   width:98%;
 }
 .comments_tarea {
    resize:none;
